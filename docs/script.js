@@ -3,7 +3,6 @@ const imagemModal = document.querySelector('.modal img');
 const modal = document.querySelector('.modal')
 
 function abrir(source) {
-    console.log(source)
     modal.style.display = 'flex'
     imagemModal.src = source;
 }
